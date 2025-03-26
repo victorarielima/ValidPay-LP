@@ -56,7 +56,8 @@ function App() {
             >
               Entrar
             </button>
-            <button className="px-6 py-2 bg-[#4CAF50] text-white rounded-full hover:bg-[#45a049] transition-colors font-semibold shadow-lg shadow-green-200">
+            <button className="px-6 py-2 bg-[#4CAF50] text-white rounded-full hover:bg-[#45a049] transition-colors font-semibold shadow-lg shadow-green-200" 
+            onClick={handleLogin}>           
               Cadastrar-se
             </button>
           </div>
